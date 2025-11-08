@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Registration</title>
+    <!--CSS style sheet-->
+    <link rel="stylesheet" href="CSS/style.css">
+     <link rel="icon" href="CSS/faviconM.ico">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/fa477f4765.js" crossorigin="anonymous"></script>
+    <!--Link to bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Bootstrap script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Header section-->
+<section class ="colored-section" id="title">
+    <div class="container-fluid">
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="logo" href="index.html" ><img src="image/logo.png" width= "30%" height="30%" alt="logo"></a>
+            <a class="navbar-brand" href="index.html">UNCC Student Coalition</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Events.html">Events/News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Member.html">Our team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FormRegistration.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+<!--Form registration-->
+<section id="form">
+
+  <fieldset>
+      <legend>Sign Up</legend>
+        <label for="email">User name (your email address): </label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="email">Confirm you email: </label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="password" placeholder="*******">
+        <br>
+        <label for="email">Your date of birth </label> <br>
+        <input type="date" name="date" id="date">
+        <br></br>
+
+        <div>
+          <p>Select your gender:</p>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male" class="male">Male</label>
+          <input type="radio" id="female"  name="gender" value="female">
+          <label for="female" class="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other" class="other">Other</label><br>
+        </div>
+
+        <label for="nickname">What should we call you: </label>
+        <input type="text" name="nickname" id="nickname">
+        <br>
+
+        <input type="submit" value="Sign Up"></input>
+  </fieldset>
+
+</section>
+
+
+
+</body>
+<footer class="colored-section" id ="foot">
+    <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f" href="https://www.facebook.com/"></i>
+        <i class="social-icon fab fa-instagram"  href="https://www.instagram.com/"></i>
+        <i class="social-icon fab fa-twitter"  href="https://twitter.com/explore"></i>
+        <i class="social-icon fas fa-envelope" href="https://mail.google.com/mail/u/0/#inbox"></i>
+        <h6>© Copyright 2021</h6>
+    </div>
+</footer>
+</html>
